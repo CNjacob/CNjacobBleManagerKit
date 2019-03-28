@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CNjacobBleManagerKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '苹果蓝牙CoreBluetooth简单使用.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,11 @@ CNjacobBleManagerKit 是对苹果蓝牙CoreBluetooth的简单封装，使用Bloc
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CNjacobBleManagerKit/Classes/**/*'
+  s.source_files =
+  'CNjacobBleManagerKit/Classes/**/*',
+  'CNjacobBleManagerKit/Classes/CNjacobBase/**/*',
+  'CNjacobBleManagerKit/Classes/CNjacobCentral/**/*',
+  'CNjacobBleManagerKit/Classes/CNjacobPeripheral/**/*'
   
   # s.resource_bundles = {
   #   'CNjacobBleManagerKit' => ['CNjacobBleManagerKit/Assets/*.png']
@@ -39,6 +43,6 @@ CNjacobBleManagerKit 是对苹果蓝牙CoreBluetooth的简单封装，使用Bloc
   s.static_framework = true
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation', 'CoreBluetooth'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
