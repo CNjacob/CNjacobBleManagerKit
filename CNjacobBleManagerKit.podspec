@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CNjacobBleManagerKit'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = '苹果蓝牙CoreBluetooth简单使用.'
 
 # This description is used to generate tags and improve search results.
