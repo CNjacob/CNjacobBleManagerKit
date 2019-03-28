@@ -1,0 +1,23 @@
+PODS:
+  - CNjacobBleManagerKit (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - CNjacobBleManagerKit (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  CNjacobBleManagerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNjacobBleManagerKit: fae00c3229e446d2adf75cc2159bfa78a2a557b5
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: f98d19cfcedaca47296d80aa86782e810ecad1aa
+
+COCOAPODS: 1.6.0
